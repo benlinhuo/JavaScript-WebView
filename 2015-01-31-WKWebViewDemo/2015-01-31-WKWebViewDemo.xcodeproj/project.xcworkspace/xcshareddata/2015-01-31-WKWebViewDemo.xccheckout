@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>313B3DA2-92B4-4193-B4C4-D32F242DB080</string>
+	<key>IDESourceControlProjectName</key>
+	<string>2015-01-31-WKWebViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>35873DC8CD4D710F2E737C459666751CD1BE13AF</key>
+		<string>https://github.com/benlinhuo/hbl-program.git</string>
+		<key>E4905965F8E1BD3E177C9489342480FF59097816</key>
+		<string>https://github.com/saitjr/WKWebViewSimpleDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>2015-01-31-WKWebViewDemo/2015-01-31-WKWebViewDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>35873DC8CD4D710F2E737C459666751CD1BE13AF</key>
+		<string>../../../..</string>
+		<key>E4905965F8E1BD3E177C9489342480FF59097816</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/saitjr/WKWebViewSimpleDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E4905965F8E1BD3E177C9489342480FF59097816</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35873DC8CD4D710F2E737C459666751CD1BE13AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E4905965F8E1BD3E177C9489342480FF59097816</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WKWebViewSimpleDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
