@@ -114,5 +114,7 @@ _webView = [[WKWebView alloc] initWithFrame:self.view.bounds configuration:confi
 [self.view addSubview:_webView];
 ```
 
-具体的代码见 2015-01-31-WKWebViewDemo 工程目录。
+具体的代码见 2015-01-31-WKWebViewDemo 工程目录。该工程使用了 Main.storyboard，所以也可以用来学习 Main.storyboard 进行场景的切换。另外备注的是：WKViewController是用来测试 js 和 WKWebView 之间进行互调的，其中用到的该链接：@"http://www.learnlaravel.com/wkwebview"，需要能正确访问才行。
+
+
 
