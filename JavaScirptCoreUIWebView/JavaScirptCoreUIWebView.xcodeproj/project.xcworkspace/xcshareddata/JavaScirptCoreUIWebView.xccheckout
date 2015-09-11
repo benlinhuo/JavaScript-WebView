@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E8F8B68E-DEA0-44DF-A7D0-49E9CAFA54B4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JavaScirptCoreUIWebView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>69E6FFFDB36C6557185684F89A00C09C2231DCF4</key>
+		<string>https://github.com/benlinhuo/JavaScript-WebView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JavaScirptCoreUIWebView/JavaScirptCoreUIWebView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>69E6FFFDB36C6557185684F89A00C09C2231DCF4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/benlinhuo/JavaScript-WebView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>69E6FFFDB36C6557185684F89A00C09C2231DCF4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>69E6FFFDB36C6557185684F89A00C09C2231DCF4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JavaScript-WebView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
