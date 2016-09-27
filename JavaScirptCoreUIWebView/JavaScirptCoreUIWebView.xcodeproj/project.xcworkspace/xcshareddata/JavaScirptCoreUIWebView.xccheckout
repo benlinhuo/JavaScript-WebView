@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E8F8B68E-DEA0-44DF-A7D0-49E9CAFA54B4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>JavaScirptCoreUIWebView</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>69E6FFFDB36C6557185684F89A00C09C2231DCF4</key>
 		<string>https://github.com/benlinhuo/JavaScript-WebView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>JavaScirptCoreUIWebView/JavaScirptCoreUIWebView.xcodeproj</string>
+	<string>JavaScirptCoreUIWebView/JavaScirptCoreUIWebView.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>69E6FFFDB36C6557185684F89A00C09C2231DCF4</key>

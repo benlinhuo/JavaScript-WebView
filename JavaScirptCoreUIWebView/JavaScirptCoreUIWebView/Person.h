@@ -18,8 +18,12 @@
 
 - (NSString *)getFullName;
 
-// create and return a new Person instance with `firstName` and `lastName`
-+ (instancetype)createWithFirstName:(NSString *)firstName lastName:(NSString *)lastName;
+// 如果是这种方式，则JS调用的方法名为：createWithFirstNameLastName
+//+ (instancetype)createWithFirstName:(NSString *)firstName lastName:(NSString *)lastName;
+
+// 因为JS调用OC方法太长，所以可以使用 JSExportAs 指定一个方法名替代，否则的话就只能
+JSExportAs(createName,  + (instancetype)createWithFirstName:(NSString *)firstName lastName:(NSString *)lastName
+);
 
 @end
 

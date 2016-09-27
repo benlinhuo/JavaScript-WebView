@@ -16,7 +16,7 @@
 		C51817711B79A28A0080E534 /* JavaScirptCoreUIWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C51817701B79A28A0080E534 /* JavaScirptCoreUIWebViewTests.m */; };
 		C54550D01BA27B7500FD5962 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C54550CF1BA27B7500FD5962 /* Person.m */; };
 		C54550D31BA2833A00FD5962 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54550D21BA2833A00FD5962 /* UIWebViewController.m */; };
-		C54550D51BA2DE8500FD5962 /* core.blade.php in Resources */ = {isa = PBXBuildFile; fileRef = C54550D41BA2DE8500FD5962 /* core.blade.php */; };
+		C54550D51BA2DE8500FD5962 /* core.html in Resources */ = {isa = PBXBuildFile; fileRef = C54550D41BA2DE8500FD5962 /* core.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 		C54550CF1BA27B7500FD5962 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		C54550D11BA2833A00FD5962 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
 		C54550D21BA2833A00FD5962 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
-		C54550D41BA2DE8500FD5962 /* core.blade.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = core.blade.php; sourceTree = "<group>"; };
+		C54550D41BA2DE8500FD5962 /* core.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = core.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 				C54550CF1BA27B7500FD5962 /* Person.m */,
 				C54550D11BA2833A00FD5962 /* UIWebViewController.h */,
 				C54550D21BA2833A00FD5962 /* UIWebViewController.m */,
-				C54550D41BA2DE8500FD5962 /* core.blade.php */,
+				C54550D41BA2DE8500FD5962 /* core.html */,
 			);
 			path = JavaScirptCoreUIWebView;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 				C51817601B79A28A0080E534 /* Main.storyboard in Resources */,
 				C51817651B79A28A0080E534 /* LaunchScreen.xib in Resources */,
 				C51817621B79A28A0080E534 /* Images.xcassets in Resources */,
-				C54550D51BA2DE8500FD5962 /* core.blade.php in Resources */,
+				C54550D51BA2DE8500FD5962 /* core.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

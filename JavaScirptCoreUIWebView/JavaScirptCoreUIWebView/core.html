@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="yes" name="apple-touch-fullscreen"/>
+<meta content="telephone=no,email=no" name="format-detection"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+<title>JavaScriptCore</title>
+</head>
+<body>
+水电费水电费1112
+<br/>
+<br/>
+<br/>
+<a href="javascript:void(0);" id="calledBtn">2. 点击调用OC</a><br/>
+<br/>
+<label>JSExport协议展示结果如下：</label><br/>
+<br/>
+<br/>
+<br/>
+<label id="personInfo"></label>
+<a href="webview://testOCCalledJS?param1=value1">4. 使用监控协议来用OC调用JS，获取参数</a>
+<br/>
+<br/>
+<label>监控协议获取数据展示结果如下：</label><br/>
+<label id="protocolInfo"></label>
+<script type="text/javascript">
+// 1.在 app 里被调用 block
+ var alertFn = function() {
+     alert('oc called js success, hahahhaha~~~~');
+ }
+
+// 2. 在 app 里面是可以正常调用的，通过 block
+ alert(threeNumByBlock(5));
+
+
+// 3. JSExport
+var loadPeopleFromJSON = function() {
+    var data = [
+    { "first": "Grace",     "last": "Hopper",   "year": 1906 },
+    { "first": "Ada",       "last": "Lovelace", "year": 1815 },
+    { "first": "Margaret",  "last": "Hamilton", "year": 1936 }
+    ];
+    var str = '';
+    for (i = 0; i < data.length; i++) {
+        // app 中 Person 类方法 createWithFirstNameLastName
+        //var person = Person.createWithFirstNameLastName(data[i].first, data[i].last);
+        var person = Person.createName(data[i].first, data[i].last);
+        person.birthYear = data[i].year;
+        str += ('name:' + data[i].first + '  ' + data[i].last + ',  birthYear:' + data[i].year + '<br/>');
+    }
+    alert(str);
+    document.getElementById("personInfo").innerHTML = str;
+}
+
+document.getElementById("calledBtn").addEventListener('click', function() {
+                                                      
+                                                      loadPeopleFromJSON();
+                                                      }, false);
+
+
+
+// 4. native 监控URL，拦截获取数据
+// 以下方法被OC调用展示在H5页面上
+var showMonitorProtocol = function(str) {
+    document.getElementById("protocolInfo").innerHTML = str;
+};
+
+</script>
+
+</body>
+</html>

@@ -11,6 +11,6 @@
 @interface UIWebViewController : UIViewController
 
 @property (nonatomic, strong) NSString *url;
-@property (nonatomic, strong) NSString *webTitle;
+@property (nonatomic, strong) NSString *html;
 
 @end
