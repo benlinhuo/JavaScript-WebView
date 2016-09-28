@@ -47,6 +47,11 @@ var loadPeopleFromJSON = function() {
         // app 中 Person 类方法 createWithFirstNameLastName
         //var person = Person.createWithFirstNameLastName(data[i].first, data[i].last);
         var person = Person.createName(data[i].first, data[i].last);
+        
+        Person.firstName = "firstName~~~lalala";
+        var firstName = Person.firstName;
+        alert(firstName + '&&&&test');
+        
         person.birthYear = data[i].year;
         str += ('name:' + data[i].first + '  ' + data[i].last + ',  birthYear:' + data[i].year + '<br/>');
     }

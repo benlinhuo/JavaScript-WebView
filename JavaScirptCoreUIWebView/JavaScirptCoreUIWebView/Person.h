@@ -12,7 +12,7 @@
 
 @protocol PersonJSExports <JSExport>
 
-@property (nonatomic, copy) NSString *firstName;
+@property (nonatomic, readonly) NSString *firstName;
 @property (nonatomic, copy) NSString *lastName;
 @property NSInteger ageToday;
 
@@ -29,7 +29,7 @@ JSExportAs(createName,  + (instancetype)createWithFirstName:(NSString *)firstNam
 
 @interface Person : NSObject <PersonJSExports>
 
-@property (nonatomic, copy) NSString *firstName;
+@property (nonatomic, readonly) NSString *firstName;
 @property (nonatomic, copy) NSString *lastName;
 @property NSInteger ageToday;
 

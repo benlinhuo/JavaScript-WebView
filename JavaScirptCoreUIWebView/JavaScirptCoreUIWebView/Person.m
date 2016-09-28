@@ -7,6 +7,8 @@
 //
 
 #import "Person.h"
+#import <objc/runtime.h>
+#import <UIKit/UIKit.h>
 
 @implementation Person
 
@@ -16,7 +18,7 @@
 
 + (instancetype) createWithFirstName:(NSString *)firstName lastName:(NSString *)lastName {
     Person *person = [[Person alloc] init];
-    person.firstName = firstName;
+//    person.firstName = firstName;
     person.lastName = lastName;
     return person;
 }

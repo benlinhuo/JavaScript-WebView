@@ -149,6 +149,13 @@
     
     JSValue *value = [self.context evaluateScript:@"Math.floor(5.4)"];
     NSLog(@"value: %@",value);
+    
+    // 对象
+    [self.context evaluateScript:@"var objExample={'key1':'value1_', 'key2':'value2'}"];
+    JSValue *objcExample = self.context[@"objExample"];
+    NSString *val1 =  [objcExample valueForProperty:@"key1"].toString;
+    NSString *val2 =  [objcExample valueForProperty:@"key2"].toString;
+    NSLog(@"param1 = %@, param2 = %@", val1, val2);
 }
 
 - (void)dealError

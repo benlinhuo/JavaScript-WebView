@@ -36,6 +36,8 @@
         NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.url] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:60];
         [self.webView loadRequest:request];
     }
+    
+    [self.webView stringByEvaluatingJavaScriptFromString:@""];
 }
 
 #pragma mark - UIWebViewDelegate
@@ -45,6 +47,7 @@
     self.context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     // alertFn 是在 js 中定义的方法
     [self.context evaluateScript:@"alertFn()"];
+//    [self.webView stringByEvaluatingJavaScriptFromString:@"alertFn()"];
     
     /**
      * 所有用 js 可以操作的代码，我们都可以使用方法 stringByEvaluatingJavaScriptFromString 去执行
